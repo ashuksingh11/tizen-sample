@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://tizen.org/ns/packages" api-version="11" package="org.example.MultiTimer" version="1.0.0">
+  <profile name="common" />
+  <ui-application appid="org.example.MultiTimer" exec="MultiTimer.dll" type="dotnet-nui"
+                  multiple="false" taskmanage="true" nodisplay="false"
+                  launch_mode="single">
+    <icon>MultiTimer.png</icon>
+    <label>Multi Timer</label>
+  </ui-application>
+  <privileges>
+    <privilege>http://tizen.org/privilege/haptic</privilege>
+    <privilege>http://tizen.org/privilege/mediastorage</privilege>
+  </privileges>
+  <feature name="http://tizen.org/feature/feedback.vibration">true</feature>
+</manifest>
