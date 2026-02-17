@@ -10,7 +10,7 @@ namespace MultiTimer
         {
             base.OnCreate();
 
-            var window = Window.Instance;
+            var window = Window.Default;
             window.Title = "Multi Timer";
             window.BackgroundColor = Color.White;
 
